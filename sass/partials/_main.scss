@@ -1,0 +1,28 @@
+/*==========
+    Main
+==========*/
+
+/*---------------
+    Components
+---------------*/
+
+.container {
+  width: $site-container-width;
+  min-height: $site-container-height;
+  @extend %spacing-base-centered;
+}
+
+.site-header {}
+
+.site-nav {}
+
+.site-content {}
+
+.site-footer {}
+
+/*--------------------
+    Sub-Components
+--------------------*/
+
+.page {}
+.post {}

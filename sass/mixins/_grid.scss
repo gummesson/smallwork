@@ -1,0 +1,28 @@
+//========
+//  Grid
+//========
+
+//-----------------
+//  Collapse Grid
+//-----------------
+
+// Usage:
+//
+// @include breakpoint(min, $breakpoint-handheld-medium) {
+//   @include grid-collapse();
+// }
+
+@mixin grid-collapse {
+
+  [class^="column-"],
+  [class^="unit-"] {
+    float: none;
+    width: 100%;
+    min-height: 0;
+  }
+
+    [class^="column-"] {
+      margin-right: 0;
+    }
+
+}

@@ -1,0 +1,11 @@
+/*============
+    Rulers
+============*/
+
+hr {
+  width: 100%;
+  height: 1px;
+  border: none;
+  @extend %spacing-base-bottom;
+  @extend %color-offset;
+}

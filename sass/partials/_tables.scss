@@ -1,0 +1,22 @@
+/*------------
+    Tables
+------------*/
+
+// Additional usage:
+//
+// .table-standard {
+//   @extend %unit-half-width;
+// }
+//
+// <table class="table-standard"> ... </table>
+
+table {
+  width: 100%;
+  @extend %spacing-base-bottom;
+}
+
+th,
+td {
+  padding: $spacing-unit-mini;
+  @extend %text-left;
+}

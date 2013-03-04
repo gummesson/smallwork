@@ -1,12 +1,20 @@
 # Smallwork
 
-*Smallwork* is a small and extendable [SCSS](http://sass-lang.com/ "Sass/SCSS") framework/starting point, built with [Compass](http://compass-style.org/ "Compass").
+*Smallwork* is a small and extendable [Sass/SCSS](http://sass-lang.com/ "Sass/SCSS") framework-like starting point, built with [Compass](http://compass-style.org/ "Compass"). 
+
+*Smallwork* makes heavy use of the placeholder selector (`%`) so that the rendered CSS doesn't get polluted with too many unused classes. This can be easily changed by changing a placeholder to an actual CSS class.
 
 ## Dependencies
 
 - [Sass](http://sass-lang.com/ "Sass")
 - [Compass](http://compass-style.org/ "Compass")
 - [Normalize (Compass plugin)](https://github.com/ksmandersen/compass-normalize "Normalize (Compass plugin)")
+
+## Acknowledgements
+
+- [Nicolas Gallagher](http://nicolasgallagher.com/ "Nicolas Gallagher") for `normalize.css` and the micro `.clearfix` object.
+- [Nicole Sullivan](http://www.stubbornella.org/content/ "Nicole Sullivan") for the `.media` object.
+- [Harry Roberts](http://csswizardry.com/ "Harry Roberts") for the `.island` and `.islet` objects.
 
 ## License
 

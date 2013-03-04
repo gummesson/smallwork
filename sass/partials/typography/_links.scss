@@ -1,0 +1,21 @@
+/*-----------
+    Links
+-----------*/
+
+a {
+  color: $body-font-color;
+  text-decoration: none;
+  border-bottom: 1px solid $body-font-color;
+
+  &:hover,
+  &:active,
+  &:focus {
+    border-bottom: 1px solid $site-color-brand;
+  }
+
+  &:active {
+    position: relative;
+    top: 1px;
+  }
+
+}

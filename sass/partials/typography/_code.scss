@@ -1,0 +1,29 @@
+/*----------
+    Code
+----------*/
+
+pre {
+  padding: $spacing-unit-small;
+  word-wrap: normal;
+  overflow: auto;
+  @extend %spacing-base-bottom;
+  @extend %color-brand;
+}
+
+code {
+  padding: $spacing-unit-mini;
+  font-family: $code-font-face;
+  @extend %mini;
+  @extend %color-accent;
+}
+
+pre,
+code {
+  line-height: 1;
+  border-radius: $spacing-unit-mini;
+}
+
+pre > code {
+  padding: 0;
+  background-color: transparent;
+}

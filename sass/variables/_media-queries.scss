@@ -1,0 +1,35 @@
+//=================
+//  Media Queries
+//=================
+
+//------------
+//  Handheld
+//------------
+
+// iPhone (Potrait)
+$breakpoint-handheld-mini: 320px;
+
+// iPhone (Landscape)
+$breakpoint-handheld-small: 480px;
+
+// iPad (Portrait)
+$breakpoint-handheld-medium: 769px;
+
+// iPad (Landscape)
+$breakpoint-handheld-big: 1024px;
+
+//----------
+//  Screen
+//----------
+
+// Small
+$breakpoint-screen-small: 1280px;
+
+// Medium
+$breakpoint-screen-medium: 1440px;
+
+// Big
+$breakpoint-screen-big: 1600px;
+
+// Huge
+$breakpoint-screen-huge: 1920px;

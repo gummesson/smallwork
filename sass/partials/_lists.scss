@@ -1,0 +1,35 @@
+/*===========
+    Lists
+===========*/
+
+//-----------
+//  Ordered
+//-----------
+
+ol {
+  @extend %spacing-base-bottom;
+}
+
+//-------------
+//  Unordered
+//-------------
+
+ul {
+  @extend %spacing-base-bottom;
+}
+
+//--------------
+//  Definition
+//--------------
+
+dl {
+  @extend %spacing-base-bottom;
+}
+
+dt {
+  @extend %bold;
+}
+
+dd {
+  @extend %spacing-base-left;
+}
