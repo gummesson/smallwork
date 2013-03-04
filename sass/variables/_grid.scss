@@ -16,9 +16,9 @@ $grid-gutter-width: 2.85%;
 $grid-columns-total: 12;
 $grid-units-total: 10;
 
-//------------------
-//  Pre-calculated
-//------------------
+//-----------
+//  Columns
+//-----------
 
 // Columns
 $grid-column-twelve: 99.99%;
@@ -34,7 +34,10 @@ $grid-column-three: 22.86%;
 $grid-column-two: 14.29%;
 $grid-column-one: 5.72%;
 
-// Units
+//---------
+//  Units
+//---------
+
 $grid-unit-full-width: 100%;
 $grid-unit-nine-tenths: 90%;
 $grid-unit-four-fifths: 80%;
