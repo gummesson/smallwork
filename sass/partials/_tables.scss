@@ -20,3 +20,7 @@ td {
   padding: $spacing-unit-mini;
   @extend %text-left;
 }
+
+caption {
+  @extend %bold;
+}

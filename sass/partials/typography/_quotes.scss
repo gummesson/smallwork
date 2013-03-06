@@ -6,4 +6,5 @@ blockquote {
   @extend %milli;
   @extend %italic;
   @extend %spacing-base-bottom;  
+  padding: 0 $spacing-unit-base;
 }
