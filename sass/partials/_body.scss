@@ -4,11 +4,7 @@
 
 @import "compass/css3/box-sizing";
 
-/*----------
-    HTML
-----------*/
-
-html {
+* {
   @include box-sizing(border-box);
 }
 
