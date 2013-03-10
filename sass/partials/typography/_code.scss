@@ -20,7 +20,7 @@ code {
 pre,
 code {
   line-height: 1;
-  border-radius: $spacing-unit-mini;
+  @include border-radius($spacing-unit-mini);
 }
 
 pre > code {

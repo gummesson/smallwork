@@ -27,6 +27,7 @@
   + Navigation
   + Images
   + Tables
+  + Buttons
   + Rulers
   + Shared
     - Spacings
@@ -71,6 +72,12 @@
 // Normalize.css | MIT License | http://git.io/normalize
 @import "partials/_normalize-css";
 
+// Box sizing: _body.scss
+@import "compass/css3/box-sizing";
+
+// Border radius: _code.scss and _buttons.scss
+@import "compass/css3/border-radius";
+
 /*! Smallwork | MIT License | http://git.io/GBOj8Q */
 @import "partials/_reset";
 @import "partials/_body";
@@ -81,6 +88,7 @@
 @import "partials/_navigation";
 @import "partials/_images";
 @import "partials/_tables";
+@import "partials/_buttons";
 @import "partials/_rulers";
 @import "partials/_shared";
 @import "partials/_grid";
