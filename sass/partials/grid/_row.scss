@@ -12,16 +12,12 @@
   @extend %spacing-zero-right;
 }
 
-[class^="column-"],
-[class^="unit-"] {
-  min-height: 1px;
-  @extend %layout-left;
-  }
-
 [class^="column-"] {
   margin-right: $grid-gutter-width;
+  min-height: 1px;
+  @extend %layout-left;
 
-  // IE9 Support
+  // IE9+ Support
   &:last-child {
     @extend %last;
   }
