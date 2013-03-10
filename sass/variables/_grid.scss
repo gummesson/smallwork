@@ -2,21 +2,23 @@
 //  Grid
 //========
 
-// The width of the grid container
-$grid-container-width: 1140px;
-
-// The following variables only apply if $default-grid is set to false
-// and should be used with the columns() mixin.
-$grid-gutter-width: 2.85%;
-$grid-columns-total: 12;
-
 // Use the default grid?
 $default-grid: true;
+
+// The widths of the grid container and grid gutter.
+// The gutter should be left alone if $default-grid is set to true.
+$grid-container-width: 1140px;
+$grid-gutter-width: 2.85%;
+
+// The following variable is used when $default-grid is set to false
+// and should be used with the columns() mixin.
+$grid-columns-total: 12;
 
 //-----------
 //  Columns
 //-----------
 
+// The widths of all the columns for the default grid.
 $grid-column-twelve: 99.99%;
 $grid-column-eleven: 91.42%;
 $grid-column-ten: 82.85%;
