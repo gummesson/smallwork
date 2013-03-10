@@ -2,27 +2,54 @@
 //  Grid
 //========
 
+//---------------------
+//  Calculate Columns
+//---------------------
+
+// The following mixin is meant to be used if $default-grid is set to false
+
+// Usage:
+//
+//  .site-header {
+//    @include columns(4, false);
+//  }
+
+@mixin columns($columns, $last) {
+
+  float: left;
+  min-height: 1px;
+
+  @if $last == true {
+    width: 100% * ($columns / $grid-columns-total);
+    margin-right: 0;
+  }
+
+  @else {
+    width: 100% * ($columns / $grid-columns-total) - $grid-gutter-width;
+    margin-right: $grid-gutter-width;
+  }
+
+}
+
 //-----------------
 //  Collapse Grid
 //-----------------
 
+// The following mixin is meant to be used if $default-grid is set to true
+
 // Usage:
 //
-// @include breakpoint(min, $breakpoint-handheld-medium) {
+// @include breakpoint(max, $breakpoint-handheld-medium) {
 //   @include grid-collapse();
 // }
 
 @mixin grid-collapse {
 
-  [class^="column-"],
-  [class^="unit-"] {
+  [class^="column-"] {
     float: none;
     width: 100%;
     min-height: 0;
+    margin-right: 0;
   }
-
-    [class^="column-"] {
-      margin-right: 0;
-    }
 
 }
