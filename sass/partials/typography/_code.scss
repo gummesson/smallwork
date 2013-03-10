@@ -7,14 +7,14 @@ pre {
   word-wrap: normal;
   overflow: auto;
   @extend %spacing-base-bottom;
-  @extend %color-brand;
+  @extend %bg-color-brand;
 }
 
 code {
   padding: $spacing-unit-mini;
   font-family: $code-font-face;
   @extend %micro;
-  @extend %color-accent;
+  @extend %bg-color-accent;
 }
 
 pre,

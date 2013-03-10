@@ -7,5 +7,5 @@ hr {
   height: 1px;
   border: none;
   @extend %spacing-base-bottom;
-  @extend %color-offset;
+  @extend %bg-color-offset;
 }
