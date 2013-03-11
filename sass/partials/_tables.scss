@@ -18,6 +18,7 @@ table {
 th,
 td {
   padding: $spacing-unit-mini;
+  border-bottom: 1px solid $body-color-alt;
   @extend %text-left;
 }
 

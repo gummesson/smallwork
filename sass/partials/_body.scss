@@ -13,7 +13,7 @@
 body {
   font: $body-font-weight #{$body-font-size}/#{$body-line-height} $body-font-face;
   color: $body-font-color;
-  background-color: $body-bg-color;
+  background-color: $body-color-bg;
 }
 
 /*---------------
@@ -21,6 +21,6 @@ body {
 ---------------*/
 
 ::selection {
-  color: $body-bg-color;
+  color: $body-color-bg;
   background-color: $color-brand;
 }

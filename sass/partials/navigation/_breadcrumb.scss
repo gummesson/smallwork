@@ -1,0 +1,16 @@
+/*----------------
+    Breadcrumb
+----------------*/
+
+// Usage:
+//
+//  .breadcrumb {
+//    @extend %nav;
+//    @extend %breadcrumb;
+//  }
+//
+//  <ol class="breadcrumb"> ... </ol>
+
+%breadcrumb li:before {
+  content: "» ";
+}

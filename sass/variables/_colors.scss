@@ -7,5 +7,5 @@
 //---------
 
 $color-brand: #BADA55;
-$color-accent: #ccc;
-$color-offset: #aaa;
+$color-accent: lighten($color-brand, 10%);
+$color-offset: darken($color-brand, 10%);

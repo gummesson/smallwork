@@ -1,13 +1,6 @@
-/*----------------
-    Navigation
-----------------*/
+//--------------
+//  Navigation
+//--------------
 
-.nav {
-  list-style: none;
-  @extend %spacing-zero-left;
-
-  li {
-    display: inline-block;
-  }
-
-}
+@import "navigation/_navigation";
+@import "navigation/_breadcrumb";
