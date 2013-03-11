@@ -16,4 +16,5 @@ $body-line-height: 1.5;
 //  Background
 //--------------
 
-$body-bg-color: #eee;
+$body-color-bg: #eee;
+$body-color-alt: darken($body-color-bg, 20%);
