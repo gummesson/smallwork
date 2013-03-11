@@ -25,6 +25,8 @@
     - Unordered
     - Definition
   + Navigation
+    - Navigation
+    - Breadcrumb
   + Images
   + Tables
   + Buttons
@@ -72,10 +74,10 @@
 // Normalize.css | MIT License | http://git.io/normalize
 @import "partials/_normalize-css";
 
-// Box sizing: _body.scss
+// Box-sizing: _body.scss
 @import "compass/css3/box-sizing";
 
-// Border radius: _code.scss and _buttons.scss
+// Border-radius: _code.scss & _buttons.scss
 @import "compass/css3/border-radius";
 
 /*! Smallwork | MIT License | http://git.io/GBOj8Q */
