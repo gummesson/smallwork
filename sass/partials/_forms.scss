@@ -1,0 +1,17 @@
+/*-----------
+    Forms
+-----------*/
+
+fieldset {
+  padding: $spacing-unit-half;
+  @extend %spacing-base-bottom;
+}
+
+label {
+  display: block;
+  @extend %bold;
+}
+
+  %label-align {
+    display: inline-block;
+  }
