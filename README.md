@@ -2,7 +2,7 @@
 
 *Smallwork* is a small and extendable [Sass/SCSS](http://sass-lang.com/ "Sass/SCSS") framework-like starting point, built with [Compass](http://compass-style.org/ "Compass"). 
 
-*Smallwork* makes heavy use of the placeholder selector (`%`) so that the rendered CSS doesn't get polluted with too many unused classes. This can be easily changed by changing a placeholder to an actual CSS class.
+*Smallwork* makes heavy use of the placeholder selector (`%`) so that the rendered CSS doesn't get polluted with too many unused classes. This can be easily changed by adding a CSS class above the placeholder selector or using `@extend`.
 
 ## Dependencies
 
