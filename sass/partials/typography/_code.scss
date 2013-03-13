@@ -3,7 +3,7 @@
 ----------*/
 
 pre {
-  padding: $spacing-unit-small;
+  padding: 0.4em;
   word-wrap: normal;
   overflow: auto;
   @extend %spacing-base-bottom;
@@ -11,10 +11,10 @@ pre {
 }
 
 code {
-  padding: $spacing-unit-mini;
+  padding: 0.2em;
   font-family: $code-font-face;
   @extend %micro;
-  @extend %bg-color-accent;
+  @extend %bg-color-brand;
 }
 
 pre,
