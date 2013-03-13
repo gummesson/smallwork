@@ -9,11 +9,16 @@
   @extend %clearfix;
 }
 
-  %media-text {
+  %media-body {
     overflow: hidden;
   }
 
   %media-img {
-    @extend %layout-left;
     margin-right: $spacing-unit-half;
+    @extend %layout-left;
+  }
+
+  %media-img-rev {
+    margin-left: $spacing-unit-half;
+    @extend %layout-right;
   }
