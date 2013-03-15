@@ -3,23 +3,22 @@
 ----------*/
 
 pre {
-  padding: 0.4em;
+  padding: 0.2em 0.4em 0.4em;
   word-wrap: normal;
   overflow: auto;
   @extend %spacing-base-bottom;
-  @extend %bg-color-brand;
 }
 
 code {
-  padding: 0.2em;
+  padding: 0.2em 0.4em;
   font-family: $code-font-face;
   @extend %micro;
-  @extend %bg-color-brand;
 }
 
 pre,
 code {
   line-height: 1;
+  @extend %bg-color-brand;
   @include border-radius($spacing-unit-mini);
 }
 
