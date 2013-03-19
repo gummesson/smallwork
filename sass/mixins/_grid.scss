@@ -2,6 +2,22 @@
 //  Grid
 //========
 
+//-------
+//  Row
+//-------
+
+// The following mixin is meant to be used if $default-grid is set to false
+
+// Usage:
+//
+// .wrapper {
+//   @include row();
+// }
+
+@mixin row() {
+  @extend %clearfix;
+}
+
 //---------------------
 //  Calculate Columns
 //---------------------
@@ -10,9 +26,9 @@
 
 // Usage:
 //
-//  .site-header {
-//    @include columns(4, false);
-//  }
+// .site-header {
+//   @include columns(4, false);
+// }
 
 @mixin columns($columns, $last) {
 

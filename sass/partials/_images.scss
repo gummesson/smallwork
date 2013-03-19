@@ -7,3 +7,12 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+figure {
+  display: block;
+}
+
+figcaption {
+  @extend %milli;
+  @extend %italic;
+}
