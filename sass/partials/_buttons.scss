@@ -20,9 +20,9 @@
   @include border-radius($spacing-unit-mini);
 
   &:hover,
-  &:active, 
+  &:active,
   &:focus {
-    outline: none;  
+    outline: none;
   }
 
 }
