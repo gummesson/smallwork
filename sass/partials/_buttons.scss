@@ -5,8 +5,7 @@
 // Usage:
 //
 //  .button {
-//    @extend button-base;
-//    @extend %bg-color-brand;
+//    @extend %button-base;
 //  }
 
 %button-base {
@@ -17,6 +16,7 @@
   line-height: 2;
   border: none;
   white-space: nowrap;
+  background-color: $color-brand;
   @include border-radius($spacing-unit-mini);
 
   &:hover,
