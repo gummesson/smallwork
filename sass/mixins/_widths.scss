@@ -24,7 +24,6 @@
     @each $breakpoint in $breakpoints {
       $breakpoint-name: nth($breakpoint, 1);
       $breakpoint-size: nth($breakpoint, 2);
-
     // If the breakpoint matches an actual one in the `$breakpoints` variable,
     // generate the media query.
       @if ($name == $breakpoint-name) {
