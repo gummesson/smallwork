@@ -4,8 +4,8 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
 
   grunt.initConfig({
-    sassfile: 'sass/style.scss',
-    cssfile: 'css/style.css',
+    sassFile: 'sass/style.scss',
+    cssFile: 'css/style.css',
 
     sass: {
       build: {
@@ -14,7 +14,7 @@ module.exports = function(grunt) {
         },
 
         files: {
-          '<%= cssfile %>' : '<%= sassfile %>'
+          '<%= cssFile %>' : '<%= sassFile %>'
         }
       },
 
@@ -23,7 +23,7 @@ module.exports = function(grunt) {
           style: 'expanded'
         },
         files: {
-          '<%= cssfile %>' : '<%= sassfile %>'
+          '<%= cssFile %>' : '<%= sassFile %>'
         }
       }
     },

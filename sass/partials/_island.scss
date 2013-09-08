@@ -6,8 +6,10 @@
 //
 .island {
   padding: $base-spacing-unit;
+  @extend %display--block;
 }
 
   .islet {
     padding: $base-spacing-unit / 2;
+    @extend %display--block;
   }
