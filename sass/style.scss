@@ -11,10 +11,12 @@
 @import "variables/_typography";
 @import "variables/_breakpoints";
 @import "variables/_sizing";
+@import "variables/_widths";
 
 // Mixins
 @import "mixins/_vendor";
 @import "mixins/_breakpoint";
+@import "mixins/_widths";
 
 // Base
 @import "partials/_body";
