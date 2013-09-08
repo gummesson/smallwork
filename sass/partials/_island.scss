@@ -5,11 +5,11 @@
 // http://csswizardry.com/2011/10/the-island-object/
 //
 .island {
-  padding: $base-spacing-unit;
   @extend %display--block;
+  padding: $base-spacing-unit;
 }
 
   .islet {
-    padding: $base-spacing-unit / 2;
     @extend %display--block;
+    padding: $base-spacing-unit / 2;
   }
