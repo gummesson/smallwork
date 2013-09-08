@@ -1,0 +1,21 @@
+//==============
+//  Breakpoint
+//==============
+//
+// Usage:
+// @include breakpoint("palm") {
+//    //...
+// }
+//
+@mixin breakpoint($name) {
+  @each $breakpoint in $breakpoints {
+    $breakpoint-name: nth($breakpoint, 1);
+    $breakpoint-size: nth($breakpoint, 2);
+
+    @if ($name == $breakpoint-name) {
+      @media only screen and #{$breakpoint-size} {
+        @content;
+      }
+    }
+  }
+}

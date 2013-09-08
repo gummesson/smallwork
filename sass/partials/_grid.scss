@@ -1,0 +1,14 @@
+/*----------
+    Grid
+----------*/
+
+.grid {
+  @extend %clearfix;
+  margin-left: -#{$base-gutter-width};
+  position: relative;
+}
+
+  .grid__item {
+    padding-left: $base-gutter-width;
+    float: left;
+  }
