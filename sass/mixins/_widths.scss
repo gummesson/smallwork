@@ -35,7 +35,7 @@
               width: #{$width-size};
             }
           }
-          // Generates the helper classes (ie: `.palm--hide`, `.palm--show`
+          // Generate the helper classes (ie: `.palm--hide`, `.palm--show`
           // or both) if they're enabled.
           @if ($helper == "hide") {
             .#{$breakpoint-name}--hide {
