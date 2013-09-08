@@ -1,37 +1,18 @@
-/*===========
+/*-----------
     Lists
-===========*/
+-----------*/
 
-//-----------
-//  Ordered
-//-----------
+ul {}
 
-ol {
-  @extend %spacing-base-left;
-  @extend %spacing-base-bottom;
+ol {}
+
+li {
+  & > ul,
+  & > ol {
+    @extend %margin-bottom--none;
+  }
 }
 
-//-------------
-//  Unordered
-//-------------
+dl {}
 
-ul {
-  @extend %spacing-base-left;
-  @extend %spacing-base-bottom;
-}
-
-//--------------
-//  Definition
-//--------------
-
-dl {
-  @extend %spacing-base-bottom;
-}
-
-dt {
-  @extend %bold;
-}
-
-dd {
-  @extend %spacing-base-left;
-}
+  dt {}

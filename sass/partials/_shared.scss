@@ -1,10 +1,29 @@
-/*============
+/*-----------
     Shared
-============*/
+-----------*/
 
-@import "shared/_spacing";
-@import "shared/_units";
-@import "shared/_floats";
-@import "shared/_clearfix";
-@import "shared/_media";
-@import "shared/_island";
+// Margins
+%margin-bottom--full {
+  margin-bottom: $base-spacing-unit;
+}
+
+%margin-bottom--none {
+  margin-bottom: 0;
+}
+
+// Font
+%font--bold {
+  font-weight: bold;
+}
+
+%font--italic {
+  font-style: italic;
+}
+
+%font--milli {
+  font-size: $base-font-size * 0.875;
+}
+
+%font--micro {
+  font-size: $base-font-size * 0.75;
+}

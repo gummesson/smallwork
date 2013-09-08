@@ -1,11 +1,13 @@
 /*--------------
     Clearfix
 --------------*/
-
+//
 // http://nicolasgallagher.com/micro-clearfix-hack/
-
+//
+// Usage:
+// @extend %clearfix;
+//
 %clearfix {
-
   &:before, &:after {
     content: "\0020";
     display: block;
@@ -16,5 +18,4 @@
   &:after {
     clear: both;
   }
-
 }

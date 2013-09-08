@@ -1,7 +1,14 @@
-/*==========
+/*----------
     Grid
-==========*/
+----------*/
 
-@import "grid/_grid";
-@import "grid/_row";
-@import "grid/_columns";
+.grid {
+  @extend %clearfix;
+  margin-left: -#{$base-gutter-width};
+  position: relative;
+}
+
+  .grid__item {
+    padding-left: $base-gutter-width;
+    float: left;
+  }

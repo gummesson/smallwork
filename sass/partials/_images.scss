@@ -1,18 +1,9 @@
-/*============
-    Images
-============*/
+/*------------
+    Images 
+------------*/
 
 img {
   vertical-align: middle;
   max-width: 100%;
   height: auto;
-}
-
-figure {
-  display: block;
-}
-
-figcaption {
-  @extend %milli;
-  @extend %italic;
 }

@@ -1,0 +1,30 @@
+/*-----------
+    Media
+------------*/
+//
+// http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/
+//
+.media {
+  display: block;
+  @extend %clearfix;
+}
+
+  .media__body {
+    overflow: hidden;
+  }
+
+  .media__img {
+    margin-right: $base-spacing-unit / 2;
+
+    img {
+      display:block;
+    }
+  }
+
+  .media__img--rev {
+    margin-left: $base-spacing-unit / 2;
+
+    img {
+      display:block;
+    }
+  }

@@ -1,0 +1,42 @@
+/*===============
+    Smallwork 
+===============*/
+
+// Resets
+@import "partials/_normalize";
+@import "partials/_reset";
+
+// Variables
+@import "variables/_colors";
+@import "variables/_typography";
+@import "variables/_breakpoints";
+@import "variables/_sizing";
+
+// Mixins
+@import "mixins/_vendor";
+@import "mixins/_breakpoint";
+
+// Base
+@import "partials/_body";
+@import "partials/_headings";
+@import "partials/_paragraphs";
+@import "partials/_links";
+@import "partials/_quotes";
+@import "partials/_code";
+@import "partials/_lists";
+@import "partials/_images";
+@import "partials/_tables";
+@import "partials/_forms";
+@import "partials/_ruler";
+
+// Components
+@import "partials/_shared";
+@import "partials/_print";
+@import "partials/_layout";
+@import "partials/_wrapper";
+@import "partials/_grid";
+@import "partials/_widths";
+@import "partials/_nav";
+@import "partials/_island";
+@import "partials/_media";
+@import "partials/_clearfix";

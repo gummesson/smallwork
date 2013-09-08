@@ -1,0 +1,9 @@
+/*------------
+    Quotes
+------------*/
+
+blockquote {
+  p:last-of-type {
+    @extend %margin-bottom--none;
+  }
+}

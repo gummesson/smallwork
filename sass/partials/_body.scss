@@ -1,31 +1,15 @@
-/*==========
-    Body
-==========*/
-
-* {
-  @include box-sizing(border-box);
-}
-
 /*----------
     Body
 ----------*/
 
+* {
+  @include vendor(box-sizing, border-box);
+}
+
+html {}
+
 body {
-  font: $body-font-weight #{$body-font-size}/#{$body-line-height} $body-font-face;
-  color: $body-font-color;
-  background-color: $body-color-bg;
-}
-
-/*---------------
-    Selection
----------------*/
-
-::selection {
-  color: $body-color-bg;
-  background-color: $color-brand;
-}
-
-::-moz-selection {
-  color: $body-color-bg;
-  background-color: $color-brand;
+  font: $base-font-weight #{$base-font-percent}/#{$base-line-height} $base-font-family;
+  color: $color-font;
+  background-color: $color-background;
 }
