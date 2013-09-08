@@ -10,7 +10,7 @@ img {
 
 figure {
   & > img {
-    display: block;
+    @extend %display--block;
   }
 }
 

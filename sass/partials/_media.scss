@@ -5,7 +5,7 @@
 // http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/
 //
 .media {
-  display: block;
+  @extend %display--block;
   @extend %clearfix;
 }
 
@@ -17,7 +17,7 @@
     margin-right: $base-spacing-unit / 2;
 
     img {
-      display:block;
+      @extend %display--block;
     }
   }
 
@@ -25,6 +25,6 @@
     margin-left: $base-spacing-unit / 2;
 
     img {
-      display:block;
+      @extend %display--block;
     }
   }
