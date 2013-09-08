@@ -1,0 +1,67 @@
+//==========
+//  Widths
+//==========
+//
+// Usage:
+// @include widths("palm", $palm-widths, "hide");
+//
+@mixin widths($name, $widths, $helper) {
+  // If the name of the breakpoint is `default`, just generate the widths
+  // without a specific breakpoint name (ie: `.one-whole`).
+  @if ($name == "default") {
+    @each $width in $widths {
+      $width-name: nth($width, 1);
+      $width-size: nth($width, 2);
+
+      .#{$width-name} {
+        width: #{$width-size};
+      }
+    }
+  }
+  // In all other cases, generate the widths with the breakpoint name in
+  // question in front of them (ie: `.palm--one-whole`).
+  @else {
+    @each $breakpoint in $breakpoints {
+      $breakpoint-name: nth($breakpoint, 1);
+      $breakpoint-size: nth($breakpoint, 2);
+
+      @if ($name == $breakpoint-name) {
+        @media only screen and #{$breakpoint-size} {
+          @each $width in $widths {
+            $width-name: nth($width, 1);
+            $width-size: nth($width, 2);
+
+            .#{$breakpoint-name}--#{$width-name} {
+              width: #{$width-size};
+            }
+          }
+          // Generate the helper classes (ie: `.palm--hide`, `.palm--show`
+          // or both) if they're enabled.
+          @if ($helper == "hide") {
+            .#{$breakpoint-name}--hide {
+              visibility: hidden;
+              display: none;
+            }
+          }
+          @else if ($helper == "show") {
+            .#{$breakpoint-name}--show {
+              visibility: visible;
+              display: inline-block;
+            }
+          }
+          @else if ($helper == "both") {
+            .#{$breakpoint-name}--hide {
+              visibility: hidden;
+              display: none;
+            }
+
+            .#{$breakpoint-name}--show {
+              visibility: visible;
+              display: inline-block;
+            }
+          }
+        }
+      }
+    }
+  }
+}
