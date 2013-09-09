@@ -65,6 +65,7 @@
       }
     }
   }
+
   @if ($breakpoint-found == false) {
     @warn "Unrecognized breakpoint: #{$name}";
   }
