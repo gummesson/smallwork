@@ -6,12 +6,12 @@ ul {}
 
 ol {}
 
-li {
-  & > ul,
-  & > ol {
-    @extend %margin-bottom--none;
+  li {
+    & > ul,
+    & > ol {
+      @extend %margin-bottom--none;
+    }
   }
-}
 
 dl {}
 
