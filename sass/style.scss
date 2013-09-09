@@ -3,42 +3,42 @@
 ===============*/
 
 // Resets
-@import "partials/_normalize";
-@import "partials/_reset";
+@import "partials/normalize";
+@import "partials/reset";
 
 // Variables
-@import "variables/_colors";
-@import "variables/_typography";
-@import "variables/_breakpoints";
-@import "variables/_sizing";
-@import "variables/_widths";
+@import "variables/colors";
+@import "variables/typography";
+@import "variables/breakpoints";
+@import "variables/sizing";
+@import "variables/widths";
 
 // Mixins
-@import "mixins/_vendor";
-@import "mixins/_breakpoint";
-@import "mixins/_widths";
+@import "mixins/vendor";
+@import "mixins/breakpoint";
+@import "mixins/widths";
 
 // Base
-@import "partials/_body";
-@import "partials/_headings";
-@import "partials/_paragraphs";
-@import "partials/_links";
-@import "partials/_quotes";
-@import "partials/_code";
-@import "partials/_lists";
-@import "partials/_images";
-@import "partials/_tables";
-@import "partials/_forms";
-@import "partials/_ruler";
+@import "partials/body";
+@import "partials/headings";
+@import "partials/paragraphs";
+@import "partials/links";
+@import "partials/quotes";
+@import "partials/code";
+@import "partials/lists";
+@import "partials/images";
+@import "partials/tables";
+@import "partials/forms";
+@import "partials/ruler";
 
 // Components
-@import "partials/_shared";
-@import "partials/_print";
-@import "partials/_layout";
-@import "partials/_wrapper";
-@import "partials/_grid";
-@import "partials/_widths";
-@import "partials/_nav";
-@import "partials/_island";
-@import "partials/_media";
-@import "partials/_clearfix";
+@import "partials/shared";
+@import "partials/print";
+@import "partials/layout";
+@import "partials/wrapper";
+@import "partials/grid";
+@import "partials/widths";
+@import "partials/nav";
+@import "partials/island";
+@import "partials/media";
+@import "partials/clearfix";
